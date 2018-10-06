@@ -1,0 +1,73 @@
+.clear {
+    clear: both;
+}
+
+.slider {
+    width: 900px;
+    margin: 50px auto;
+    padding: 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-wrap {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 10000000px;
+}
+
+.slide-item {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+
+.slide-title {
+    font: bold 16px monospace;
+    display: block;
+}
+
+.navy {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+}
+
+.prev-slide {
+    left: 0;
+    background: #dbdbdb url(bg/left-arrow.png) 11px 40% no-repeat;
+}
+
+.next-slide {
+    right: 0;
+    background: #dbdbdb url(bg/right-arrow.png) 13px 40% no-repeat;
+}
+
+.navy.disable {
+    background: #dbdbdb;
+}
+
+.auto {
+    width: 7px;
+    height: 11px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.play {
+    background: url(bg/play.png) center no-repeat;
+}
+
+.pause {
+    background: url(bg/pause.png) center no-repeat;
+}
